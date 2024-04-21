@@ -2,7 +2,7 @@
   "name": "allpokemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://astrofoil.github.io/Pokedex",
+  "homepage": "https://astrofoil.github.io/pokedexfile",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
