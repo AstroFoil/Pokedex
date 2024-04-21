@@ -1,27 +1,5 @@
 import React, { useState } from 'react';
 import useGetPokemon from './useGetPokemon';
-
-const typeToColor = {
-    normal: 'grey',
-    fire: 'red',
-    water: 'blue',
-    electric: 'yellow',
-    grass: 'green',
-    ice: 'lightblue',
-    fighting: 'darkred',
-    poison: 'purple',
-    ground: 'brown',
-    flying: 'lightgrey',
-    psychic: 'magenta',
-    bug: 'lightgreen',
-    rock: 'darkbrown',
-    ghost: 'darkslateblue',
-    dragon: 'orange',
-    dark: 'black',
-    steel: 'lightsteelblue',
-    fairy: 'pink'
-};
-
 const DisplayPokemon = ({ id }) => {
     const { pokemon, error, loading } = useGetPokemon(id);
     const [showDetails, setShowDetails] = useState(false); // State to manage display of details
