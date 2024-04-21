@@ -7,7 +7,6 @@ const Nav = () => {
             <ul>
                 <li><Link to="/testPoke"> Home </Link></li>
                 <li><Link to="/about"> About </Link></li>
-                <li><Link to="/contactpage"> Contact Page </Link></li>
                 <li><Link to="/pokedexfile"> Pokedex </Link></li>
 
             </ul>
