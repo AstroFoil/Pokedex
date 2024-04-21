@@ -39,10 +39,6 @@ const PokedexFile = () => {
         setSelectedPokemon(null); // Clear selection when changing pages
     };
 
-    const returnToList = () => {
-        setSelectedPokemon(null); // Function to clear the selected Pokémon and return to list
-    };
-
     return (
         <div style={{ background: 'rgba(255, 0, 0, 0.6)', position: 'relative', minHeight: '100vh' }}>
             <div style={{

@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import About from "./components/about";
 import Nav from "./components/nav";
-import Contactpage from "./components/contactpage";
 import PokedexFile from "./components/pokedexfile";
 import TestPoke from "./components/testPoke";
 function App() {
@@ -28,7 +27,6 @@ function App() {
               <Route path="/" element={<TestPoke />} />
               <Route path="/pokedexfile" element={<PokedexFile />} />
               <Route path="/about" element={<About />} />
-              <Route path="/contactpage" element={<Contactpage />} />
             </Routes>
           </main>
         </div>

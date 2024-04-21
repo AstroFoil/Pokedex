@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import useGetPokemon from './useGetPokemon';
+
 const DisplayPokemon = ({ id }) => {
     const { pokemon, error, loading } = useGetPokemon(id);
     const [showDetails, setShowDetails] = useState(false); // State to manage display of details
